@@ -149,7 +149,7 @@ cv::Ptr<cv::ml::ANN_MLP> GetTrainedNeuralNetwork(const cv::Mat& trainSamples, co
 int GetPredictedClass(const cv::Mat& predictions)
 {
 	float maxPrediction = predictions.at<float>(0);
-	float maxPredictionIndex = 0;
+	int maxPredictionIndex = 0;
 	const float* ptrPredictions = predictions.ptr<float>(0);
 	for (int i = 0; i < predictions.cols; i++)
 	{
