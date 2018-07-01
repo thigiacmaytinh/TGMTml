@@ -2,9 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="WinMain.cpp" />
-    <ClCompile Include="..\lib\TGMTcpp\src\stdafx.cpp">
-      <Filter>TGMT</Filter>
-    </ClCompile>
     <ClCompile Include="..\lib\TGMTcpp\src\TGMTdebugger.cpp">
       <Filter>TGMT</Filter>
     </ClCompile>
@@ -14,26 +11,18 @@
     <ClCompile Include="..\lib\TGMTcpp\src\TGMTutil.cpp">
       <Filter>TGMT</Filter>
     </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\stdafx.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
     <ClCompile Include="..\lib\TGMTcpp\src\TGMTConfig.cpp">
       <Filter>TGMT</Filter>
     </ClCompile>
     <ClCompile Include="..\lib\TGMTcpp\src\TGMTimage.cpp">
       <Filter>TGMT</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\TGMTcpp\src\TGMTml.cpp">
-      <Filter>TGMT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\TGMTcpp\src\TGMTann.cpp">
-      <Filter>TGMT</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="TGMT">
-      <UniqueIdentifier>{66ad8abf-00db-47d9-a9f9-40f4dc6eb44a}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\lib\TGMTcpp\src\stdafx.h">
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTutil.h">
       <Filter>TGMT</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\TGMTcpp\src\TGMTdebugger.h">
@@ -42,7 +31,7 @@
     <ClInclude Include="..\lib\TGMTcpp\src\TGMTfile.h">
       <Filter>TGMT</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\TGMTcpp\src\TGMTutil.h">
+    <ClInclude Include="..\lib\TGMTcpp\src\stdafx.h">
       <Filter>TGMT</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\TGMTcpp\src\TGMTConfig.h">
@@ -51,11 +40,10 @@
     <ClInclude Include="..\lib\TGMTcpp\src\TGMTimage.h">
       <Filter>TGMT</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\TGMTcpp\src\TGMTml.h">
-      <Filter>TGMT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\TGMTcpp\src\TGMTann.h">
-      <Filter>TGMT</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TGMT">
+      <UniqueIdentifier>{584c595c-0d4c-492f-a3bc-84b772759188}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
