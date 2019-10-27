@@ -35,6 +35,9 @@ void _tmain(int argc, _TCHAR* argv[])
 		return;
 	}
 	
-	GetTGMTsvm()->TrainData(dir);
-	GetTGMTsvm()->SaveData(fileOuput);
+	if (GetTGMTsvm()->TrainData(dir))
+	{
+		PrintSuccess("Training success");
+		GetTGMTsvm()->SaveData(fileOuput);
+	}	
 }
