@@ -74,7 +74,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		PrintMessage("%s: %c", fileName.c_str(), (char)result);
 		std::string targetFile = TGMTutil::FormatString("%s%c\\%s", outDir.c_str(), result, fileName.c_str());
 		
-		TGMTfile::MoveFileAsync(files[i], targetFile);
+		TGMTfile::CopyFileAsync(files[i], targetFile);
 	}
 
 	//Print Result
