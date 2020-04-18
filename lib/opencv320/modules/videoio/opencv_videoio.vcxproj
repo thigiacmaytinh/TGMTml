@@ -160,7 +160,7 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Lib>
-      <AdditionalDependencies>opencv_imgcodecs320d.lib;..\..\3rdparty\ippicv\ippicv_win\lib\ia32\ippicvmt.lib;vfw32.lib;opencv_imgproc320d.lib;opencv_core320d.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_imgcodecs320d.lib;vfw32.lib;opencv_imgproc320d.lib;opencv_core320d.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ProjectDir)..\lib\$(Configuration)\;$(ProjectDir)..\..\3rdparty\lib\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
@@ -224,7 +224,7 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Lib>
-      <AdditionalDependencies>opencv_imgcodecs320d.lib;..\..\3rdparty\ippicv\ippicv_win\lib\ia32\ippicvmt.lib;vfw32.lib;opencv_imgproc320d.lib;opencv_core320d.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_imgcodecs320d.lib;vfw32.lib;opencv_imgproc320d.lib;opencv_core320d.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ProjectDir)..\lib\$(Configuration)-$(Platform);$(ProjectDir)..\..\3rdparty\compiled_lib\$(Configuration)-$(Platform);$(ProjectDir)..\..\3rdparty\lib\$(Configuration)-$(Platform)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
@@ -288,7 +288,7 @@
     </ProjectReference>
     <Lib>
       <AdditionalLibraryDirectories>$(ProjectDir)..\lib\$(Configuration)\;$(ProjectDir)..\..\3rdparty\lib\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_imgcodecs320.lib;..\..\3rdparty\ippicv\ippicv_win\lib\ia32\ippicvmt.lib;vfw32.lib;opencv_imgproc320.lib;opencv_core320.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_imgcodecs320.lib;vfw32.lib;opencv_imgproc320.lib;opencv_core320.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -351,7 +351,7 @@
     </ProjectReference>
     <Lib>
       <AdditionalLibraryDirectories>$(ProjectDir)..\lib\$(Configuration)-$(Platform);$(ProjectDir)..\..\3rdparty\compiled_lib\$(Configuration)-$(Platform);$(ProjectDir)..\..\3rdparty\lib\$(Configuration)-$(Platform)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_imgcodecs320.lib;..\..\3rdparty\ippicv\ippicv_win\lib\ia32\ippicvmt.lib;vfw32.lib;opencv_imgproc320.lib;opencv_core320.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_imgcodecs320.lib;vfw32.lib;opencv_imgproc320.lib;opencv_core320.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>

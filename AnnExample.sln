@@ -21,17 +21,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_ml", "lib\opencv320\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_videoio", "lib\opencv320\modules\videoio\opencv_videoio.vcxproj", "{7E8DCDC6-DBB6-394E-B1C2-C1CBDC990655}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjasper", "lib\opencv320\3rdparty\libjasper\libjasper.vcxproj", "{FC470206-6F71-4925-BE63-6DB515EF3A44}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "lib\opencv320\3rdparty\libjpeg\libjpeg.vcxproj", "{D27AE347-08BC-4938-B473-6365CAB8E3C2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "lib\opencv320\3rdparty\libpng\libpng.vcxproj", "{01BEE73E-6F42-4714-9CE6-D968CE1F49D6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "lib\opencv320\3rdparty\libtiff\libtiff.vcxproj", "{97B29ACD-CF80-4AE0-9C6C-B414484480AD}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwebp", "lib\opencv320\3rdparty\libwebp\libwebp.vcxproj", "{3C5375B9-04EE-4136-A826-929B32175B32}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IlmImf", "lib\opencv320\3rdparty\openexr\IlmImf.vcxproj", "{A8104AFF-8102-49F8-ACD3-0E4A059E559F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "lib\opencv320\3rdparty\zlib\zlib.vcxproj", "{B1C6E4EE-CFAF-452B-A6DC-70CC90415519}"
 EndProject
@@ -77,10 +71,6 @@ Global
 		{7E8DCDC6-DBB6-394E-B1C2-C1CBDC990655}.Debug|x86.Build.0 = Debug|Win32
 		{7E8DCDC6-DBB6-394E-B1C2-C1CBDC990655}.Release|x86.ActiveCfg = Release|Win32
 		{7E8DCDC6-DBB6-394E-B1C2-C1CBDC990655}.Release|x86.Build.0 = Release|Win32
-		{FC470206-6F71-4925-BE63-6DB515EF3A44}.Debug|x86.ActiveCfg = Debug|Win32
-		{FC470206-6F71-4925-BE63-6DB515EF3A44}.Debug|x86.Build.0 = Debug|Win32
-		{FC470206-6F71-4925-BE63-6DB515EF3A44}.Release|x86.ActiveCfg = Release|Win32
-		{FC470206-6F71-4925-BE63-6DB515EF3A44}.Release|x86.Build.0 = Release|Win32
 		{D27AE347-08BC-4938-B473-6365CAB8E3C2}.Debug|x86.ActiveCfg = Debug|Win32
 		{D27AE347-08BC-4938-B473-6365CAB8E3C2}.Debug|x86.Build.0 = Debug|Win32
 		{D27AE347-08BC-4938-B473-6365CAB8E3C2}.Release|x86.ActiveCfg = Release|Win32
@@ -89,18 +79,10 @@ Global
 		{01BEE73E-6F42-4714-9CE6-D968CE1F49D6}.Debug|x86.Build.0 = Debug|Win32
 		{01BEE73E-6F42-4714-9CE6-D968CE1F49D6}.Release|x86.ActiveCfg = Release|Win32
 		{01BEE73E-6F42-4714-9CE6-D968CE1F49D6}.Release|x86.Build.0 = Release|Win32
-		{97B29ACD-CF80-4AE0-9C6C-B414484480AD}.Debug|x86.ActiveCfg = Debug|Win32
-		{97B29ACD-CF80-4AE0-9C6C-B414484480AD}.Debug|x86.Build.0 = Debug|Win32
-		{97B29ACD-CF80-4AE0-9C6C-B414484480AD}.Release|x86.ActiveCfg = Release|Win32
-		{97B29ACD-CF80-4AE0-9C6C-B414484480AD}.Release|x86.Build.0 = Release|Win32
 		{3C5375B9-04EE-4136-A826-929B32175B32}.Debug|x86.ActiveCfg = Debug|Win32
 		{3C5375B9-04EE-4136-A826-929B32175B32}.Debug|x86.Build.0 = Debug|Win32
 		{3C5375B9-04EE-4136-A826-929B32175B32}.Release|x86.ActiveCfg = Release|Win32
 		{3C5375B9-04EE-4136-A826-929B32175B32}.Release|x86.Build.0 = Release|Win32
-		{A8104AFF-8102-49F8-ACD3-0E4A059E559F}.Debug|x86.ActiveCfg = Debug|Win32
-		{A8104AFF-8102-49F8-ACD3-0E4A059E559F}.Debug|x86.Build.0 = Debug|Win32
-		{A8104AFF-8102-49F8-ACD3-0E4A059E559F}.Release|x86.ActiveCfg = Release|Win32
-		{A8104AFF-8102-49F8-ACD3-0E4A059E559F}.Release|x86.Build.0 = Release|Win32
 		{B1C6E4EE-CFAF-452B-A6DC-70CC90415519}.Debug|x86.ActiveCfg = Debug|Win32
 		{B1C6E4EE-CFAF-452B-A6DC-70CC90415519}.Debug|x86.Build.0 = Debug|Win32
 		{B1C6E4EE-CFAF-452B-A6DC-70CC90415519}.Release|x86.ActiveCfg = Release|Win32
