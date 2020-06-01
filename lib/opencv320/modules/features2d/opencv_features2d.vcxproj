@@ -681,11 +681,6 @@
     <None Include="src\opencl\fast.cl" />
     <None Include="src\opencl\orb.cl" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\flann\opencv_flann.vcxproj">
-      <Project>{1618a8f9-ffd8-34bd-b1cd-1c8c4e13a9b6}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
